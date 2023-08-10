@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <style>
+        body {
+            background-color: #414141;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Job Application</h1>
+    </div>
+    <form action="">
+
+        <label for="name">Name:</label><br />
+        <input type="text" name="" id="name" placeholder="Full Name"><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" name="" id="email" placeholder="Email"><br /><br />
+
+        <label for="phone">Phone:</label><br />
+        <input type="tel" name="" id="phone" placeholder="Phone"><br /><br />
+
+        <label for="resume">Resume:</label><br />
+        <input type="file" name="" id="resume"><br /><br />
+
+        <label for="experience_year">Experience (years)</label><br />
+        <input type="number" name="" id="experience_year" min="0" max="50" value="0"> <br /><br />
+
+        <label for="highest_education">Highest Education: </label><br />
+        <select name="" id="highest_education">
+            <option value="high_school">High school</option>
+            <option value="under_graguation">Under graduation</option>
+            <option value="post_graduation">Post graduation</option>
+            <option value="phd">PHD</option>
+            <option value="other">other</option>
+        </select><br /> <br />
+
+        <fieldset>
+            <legend>Skills:</legend>
+
+            <input type="checkbox" name="" id="html"><br />
+            <label for="html">HTML</label><br /><br />
+
+            <input type="checkbox" name="" id="css"><br />
+            <label for="css">CSS</label><br /><br />
+
+            <input type="checkbox" name="" id="js"><br />
+            <label for="js">JavaScript</label>
+        </fieldset><br />
+
+        <br /><br />
+        <fieldset>
+            <legend>Availability:</legend>
+            <input type="radio" name="Job-time" id="part-time"><br />
+            <label for="part-time">Part-Time</label><br /> <br />
+
+            <input type="radio" name="Job-time" id="full-time"><br />
+            <label for="full-time">Full-Time</label><br />
+        </fieldset><br />
+
+        <label for="comment">Additional Comment:</label><br />
+        <textarea name="" id="comment" cols="45" rows="4" placeholder="Comment"></textarea>
+
+        <input type="submit" value="Submit Application">
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
