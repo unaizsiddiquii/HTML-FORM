@@ -1,6 +1,6 @@
 # HTML-FORM
 Form Practice 
-This Repository include basic Form of HTML FORM -->
+This Repository include basic Form using HTML -->
 
 File one(1) include Event Registration Form
 
